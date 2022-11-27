@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content='../assets/img/ogimg.png' property='og:image' />
+
+  <title>Join the ITClub HUPH</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/IT.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Contact Section ======= -->
+    <section id="apply" class="apply">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Join the ITClub HUPH</h2>
+          <p>Các bạn vui lòng điền các thông tin chính xác vào biểu mẫu đăng ký dưới đây</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScfirBOrFi18z6JxmSvOPQz6sBz0DdLZ1W8lhh3s8hLJBO56Q/formResponse" method="post" role="form" class="email-form" target='hidden_iframe'>
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Họ & tên</label>
+                  <input type="text" name="entry.491812479" class="form-control" required>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="name">Ngày sinh</label>
+                  <input type="date" name="entry.1995437313" class="form-control" required>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="entry.1408902705" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label for="name">Bạn đang học ngành nào?</label>
+                  <select class="form-control" name='entry.1551615818'>
+                    <option>Khoa học dữ liệu</option>
+                    <option>Y tế công cộng</option>
+                    <option>Kỹ thuật xét nghiệm y học</option>
+                    <option>Kỹ thuật phục hồi chức năng</option>
+                    <option>Dinh dưỡng</option>
+                    <option>Công tác xã hội</option>
+                    <option>Công nghệ kỹ thuật môi trường</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-8">
+                  <label for="name">Bạn biết đến CLB từ nguồn nào?</label>
+                  <input type="text" name="entry.1065923816" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="name">Bạn muốn vào ban nào của ITC?</label>
+                  <select class="form-control" name='entry.715915150'>
+                    <option>Ban chuyên môn</option>
+                    <option>Ban truyền thông</option>
+                    <option>Ban sự kiện</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-9">
+                  <label for="name">Vì sao bạn lại chọn ban này?</label>
+                  <input type="text" name="entry.792896239" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-12">
+                  <label for="name">Bạn nghĩ mình sẽ làm gì để phát triển CLB?</label>
+                  <input type="text" name="entry.36692487" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name">Lời nhắn</label>
+                <textarea placeholder="Bạn kỳ vọng gì khi trở thành thành viên của ITC? Những ý tưởng đóng góp của bạn dành cho CLB..." class="form-control" name="entry.1684875253" rows="12" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="error-message">Hiện tại CLB chưa có đợt tuyển CTV. Bạn vui lòng chờ!</div>
+                <div class="sent-message" style="display: none;" id='sent-mes'>Đơn đăng ký đã được ghi nhận, bạn vui lòng chờ kết quả nhé!</div>
+              </div>
+              <div class="text-center"><button type="submit" disabled>Send Request</button></div>
+            </form>
+            <iframe name='hidden_iframe' style='display: none;' onload="tb()"></iframe>
+            <script type="text/javascript">
+              function tb() {
+                document.getElementById('sent-mes').style.display = '';
+              }
+            </script>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-itc">
+            <h3>ITClub</h3>
+            <p>Nơi tình yêu bắt đầu</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Back to</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../#team">Team</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="index.html#faq">FAQ</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../ctv">Join the Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../cfs">Confession</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Product</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Kết nối với chúng mình qua các kênh MXH</p>
+            <div class="social-links mt-3">
+              <a target="_blank" href="https://www.facebook.com/ITC.HUPH" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a target="_blank" href="https://www.tiktok.com/@huph2001" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+              <a target="_blank" href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a target="_blank" href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
